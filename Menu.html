@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<style type="text/css">
+		.Header2
+		{
+			margin-right:10;
+			top: 0;
+			float: right;
+		}
+
+		ul 
+		{
+  		    list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+		}
+
+		li {
+  			float: left;
+		}
+
+
+		li a {
+  			display: block;
+  			padding: 8px;
+  			background-color: #dddddd;
+		}
+		.sectiongrid {
+			display: -webkit-flex;
+  			display: flex;
+  			float: left;
+			
+		}
+
+		.navigationgrid {
+
+			-webkit-flex: 1;
+  			-ms-flex: 1;
+  			flex: 1;
+  			background: #ccc;
+  			padding: 20px;
+  			
+			
+		}
+		.listgrid {
+			float: left;
+			
+		}
+
+		@media (max-width: 600px) {
+  .sectiongrid {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  		.mySlides {display: none;}
+
+  		/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+	</style>
+		
+
+</head>
+<body>
+	<header>
+	This menu web page is a copy of subway, this is done just for practicing html and css.
+		
+	</header>
+
+	<form>
+		<div class="mainheader">
+		<div class="header1">
+			<a href="index.html">
+				<img src="subway-logo-new.png" alt="logo" width="222" height="44">
+			</a>
+			<img src="flag_Canada.png" alt="flag_Canada" width="20" height="20">
+			Canada &nbsp | &nbsp
+			<a href="">
+				Change
+			</a>
+			<select name="language" id="language">
+				<option>English</option>
+				<option>Francias</option>			
+			</select>
+		</div>
+		<div class=Header2>
+			<a href="">careers </a>
+			|
+			<a href="">SUBWAY Card</a>
+			|
+			<a href="">Sign In</a>
+		</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div>
+			<ul class="dropboxes" id="dropboxes">
+				<li>&nbsp&nbsp<a href="">Find Store</a></li>
+				<li>&nbsp&nbsp
+					<a href="">Menu & Nutrition</a>
+					<select name="menuandnutri" id="menuandnutri">
+						<ul>
+						<li><option>Grill Sandwitch </option></li>
+						<li><option>$4 Mighty Meal </option></li>
+						<li><option>All Sandwitches </option></li>
+						<li><option>Featured Combo </option></li>
+						<li><option>8 Under 6 </option></li>
+						<li><option>Breakfast </option></li>
+						<li><option>KIDS' PACK</option></li>
+						<li><option>Salad </option></li>
+						<li><option>Sides,Drinks & Extra </option></li>
+					</ul>
+					<ul>
+						<li><option><h1>Nutrition</h1></option></li>
+						<li><option>Expert advice</option></li>
+						<li><option>Menu Nutrition FAQ</option></li>
+						<li><option>Nutrition Information</option></li>
+						<li><option>Our Chicken</option></li>
+					</ul>
+					</select> 
+				</li>
+				<li>&nbsp&nbsp
+					<a href="">Catering</a>
+					<select name="menuandnutri" id="menuandnutri">
+						<ul>
+						<li><option>Sign In </option></li>
+						<li><option>Register </option></li>
+						<li><option>Learn More </option></li>
+						<li><option>How it Works </option></li>
+						<li><option>Rewards FAQs</option></li>
+						<li><option>Play Our Games </option></li>
+					</ul>
+					</select> 
+				</li>
+				<li>&nbsp&nbsp
+					<a href="">Rewards and Deals</a>
+					<select name="Rewardsanddeals" id="Rewardsanddeals">
+						<ul>
+						<li><option>History </option></li>
+						<li><option>LATEST NEWS/PRESS RELEASES </option></li>
+						<li><option>Explore our world </option></li>
+						<li><option>Social Responsibility </option></li>
+						<li><option>Subway FAQS </option></li>
+						<li><option>Contact Us </option></li>
+					</ul>
+					</select> 
+				</li>
+				<li>&nbsp&nbsp
+					<a href="">
+					About Us</a>
+				</li>
+				<li>&nbsp&nbsp
+					<a href="">Start Order</a>
+				</li>
+				<li>&nbsp&nbsp
+					<a href="">Subway Card</a>
+				</li>
+			</ul>
+
+			</ul>
+			</ul>
+			</ul>
+		</div>
+		<section class="sectiongrid">
+  	<nav class="navigationgrid">
+    <ul>
+      <li class="listgrid"><a href="#"><img src="Section1.jpg" alt="Section1" width="100" height="44">Grilled to perfection.</a></li><br><br>
+      <li class="listgrid"><a href="#"><img src="Section2.jpg" alt="Section2" width="100" height="44">The $6 cheesy duo.</a></li><br><br>
+      <li class="listgrid"><a href="#"><img src="Section3.jpg" alt="Section3" width="100" height="44">Pre-order your meal.</a></li><br><br>
+      <li class="listgrid"><a href="#"><img src="Section4.jpg" alt="Section4" width="100" height="44">Get it delivered.</a></li><br><br>
+    </ul>
+  	</nav>
+  	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+  		<img src="Section5.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+  		<img src="Section6.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+  		<img src="Section7.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+  		<img src="Section58.jpg" style="width:100%">
+	</div>
+	</div>
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+  
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<table>
+<th><h1>Menu</h1></th>
+<tr>
+<td><img src="Menu1.jpg" alt="Menu1" width="200" height="200"><br><br><h2>Grilled Ciabatta</h2></td>
+<td><img src="menu2.jpg" alt="menu2" width="200" height="200"><br><br><h2>Grilled Wraps</h2></td>
+</tr>
+<tr>
+<td><img src="menu3.jpg" alt="menu3" width="200" height="200"><br><br><h2>$4 Mighty Melts</h2></td>
+<td><img src="menu4.jpg" alt="menu4" width="200" height="200"><br><br><h2>All Sandwiches</h2></td>
+</tr>
+<tr>
+<td><img src="menu5.jpg" alt="menu5" width="200" height="200"><br><br><h2>Featured Combo</h2></td>
+<td><img src="menu6.jpg" alt="menu6" width="200" height="200"><br><br><h2>8 Under 6</h2></td>
+</tr>
+<tr>
+<td><img src="menu7.jpg" alt="menu7" width="200" height="200"><br><br><h2>Breakfast</h2></td>
+<td><img src="menu8.jpg" alt="menu8" width="200" height="200"><br><br><h2>KIDS' PAK®</h2></td>
+</tr>
+<tr>
+<td><img src="menu9.jpg" alt="menu9" width="200" height="200"><br><br><h2>Salads</h2></td>
+<td><img src="menu10.jpg" alt="menu10" width="200" height="200"><br><br><h2>Sides, Drinks & Extras</h2></td>
+</tr>
+</table>
+
+
+	</form>
+	<footer>
+	This project is done by Koustuba Kalyanai Rachagundla, Tharun and Manoj
+	</footer>
+</body>
+</html>

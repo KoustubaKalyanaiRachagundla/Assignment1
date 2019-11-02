@@ -1,45 +1,169 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type = "text/css" href="Card.css">
+</head>
 <body>
+<header>
+	This index web page is a copy of subway, this is done just for practicing html and css.
+		
+	</header>
 
-<table>
+	
+		<div class="mainheader">
+		
+			<a href="index.html">
+				<img src="subway-logo-new.png" alt="logo" width="222" height="44">
+			</a>
+			<img src="flag_Canada.png" alt="flag_Canada" width="20" height="20">
+			Canada &nbsp | &nbsp
+			<a href="">
+				Change
+			</a>
+			<select name="language" id="language">
+				<option>English</option>
+				<option>Francias</option>			
+			</select>
+		
+		<div class=Header2>
+		<br>
+
+			<a href="">careers </a>
+			|
+			<a href="Card.html">SUBWAY Card</a>
+			|
+			<a href="Signin.html">Sign In</a>
+		</div>
+		</div>
+		<br>
+		
+		<div class="navbar">
+			
+				<a href="">Find Store</a>
+
+			<div class="dropdown">
+    				<button class="dropbtn" onclick="menu()">Menu & Nutrition 
+            <i class="fa fa-caret-down"></i>
+            </button>
+   				 <div class="dropdown-content">
+      					<a href="#">Grill Sandwitch 1</a>
+      					<a href="#">$4 Mighty Meal</a>
+      					<a href="#">All Sandwitches</a>
+      					<a href="#">Featured Combo </a>
+      					<a href="#">8 Under 6</a>
+      					<a href="#">Breakfast </a>
+      					<a href="#">KIDS' PACK</a>
+      					<a href="#">Salad</a>
+      					<a href="#">Sides,Drinks & Extra</a>
+      					<a href="#">All Sandwitches</a>
+      					<a href="#">All Sandwitches</a>
+    			</div>
+  			</div> 
+
+				<script>
+        function menu() {
+          window.location.href="Menu.html";
+        }
+         console.log('did set function');
+        </script>
+   
+
+  			<div class="dropdown">
+    				<button class="dropbtn" onclick="Catering()">Catering
+     				<i class="fa fa-caret-down"></i>
+    				</button>
+   				 <div class="dropdown-content">
+      					<a href="#">Sign In</a>
+      					<a href="#">Register</a>
+      					<a href="#">Learn More </a>
+      					<a href="#">How it Works </a>
+      					<a href="#">Rewards FAQs</a>
+      					<a href="#">Play Our Games</a>
+    			</div>
+  			</div> 
+      <script>
+        function Catering() {
+          window.location.href="catering planning1.html";
+        }
+         console.log('did set function');
+        </script>
+      <a href="">Rewards and Deals</a>
+  			<div class="dropdown">
+    				<button class="dropbtn">About Us
+     				<i class="fa fa-caret-down"></i>
+    				</button>
+   				 <div class="dropdown-content">
+      					<a href="History.html">History</a>
+      					<a href="#">LATEST NEWS/PRESS RELEASES</a>
+      					<a href="#">Explore our world </a>
+      					<a href="#">Social Responsibility </a>
+      					<a href="#">Subway FAQS</a>
+      					<a href="#">Contact Us</a>
+    			</div>
+  			</div> 
+  			
+  			<a href="">Start Order</a>
+  			<a href="Card.html">Subway Card</a>
+		</div>
+
+		<br>
+<table class = "imggrid">
 <tr>
 	<td> <img src= "card1.jpg" alt=Card, width=700, height=200><br><br>
 	</tr>
-	<tr>
-	<td>
-		<img src= "card2.jpg" alt=Card, width=300, height=100> 
-			<h1> <font color="green">Buy a card 
-			</h1></font>
-				<p>Thank you gift? Saying congrats? Treating <br>
-	yourself to a delicious lunch? Any occasion is a <br>
-	Subway® gift card occasion.
-				</p>
- </td><br>
-	
-	</tr>
+	</table><br><br>
 	<table>
-		<tr>
-			<td><img src= "card3.jpg" alt=Card, width=300, height=100>
-				<h1> <font color="green">Manage your account
-				</h1></font>
-				A one-stop shop — add cards to your account,<br>
-				check your gift balance and keep track of your Subway MyWay™ Rewards offers, tokens and rewards.
-			</td>
-		</tr>
-	</table>
-	
-<table>
-	<tr>
-		<td> <img src="card4.jpg" alt=Card, width=300,height=100>
-			<h1> <font color="green">Learn more about rewards
-			</h1></font>
-			Eat, earn rewards, repeat. Every food or drink<br>
-			purchase in restaurants across the nation made <br>
-			with your Subway® Card gets you closer to awesome rewards.
+	<tr>	
+	<td class="class2">
+		<img src= "card2.jpg" alt=Card, width=300, height=130> 
+			<h1> <font color="green">Buy a card </h1></font>
+			<p>Thank you gift? Saying congrats? Treating <br>
+				yourself to a delicious lunch? Any occasion is a <br>
+				Subway® gift card occasion. <br>
+	<u> <font color="green"> Get a gift card </u><br>
+	<u> <font color="green">Corporate card orders</u><br>
+	<u> <font color="green">Subway® Card FAQs</u><br>
+	<u> <font color="green">Subway® Card Terms</u>
+			</p>
+			
+ </td>
+ <td></td>
+			
+	<td class="class2">
+			<img src= "card3.jpg" alt=Card, width=300, height=130 class="class4">
+				<h1 > <font color="green" font size="5">Manage your account</h1></font>				
+				<p >A one-stop shop — add cards to your account,<br>
+								check your gift balance and keep track of your <br>
+								Subway MyWay™ Rewards offers,<br>
+								tokens and rewards.<br>
+								<u> <font color="green"> Already have an account? Log in now </u> <br>
+								<u> <font color="green"> Register your Card</u><br>
+								<u><font color="green">Missing Tokens Request</u>
+				</p>
+
+	</td>
+	<td></td>
+			
+		<td class="class2"> 
+			<img src="card4.jpg" alt=Card, width=300, height=130 class="class3">
+			<h1 > <font color="green" font size="5">Learn more about rewards</h1></font>			
+			<p >Eat, earn rewards, repeat. Every food or drink<br>
+								purchase in restaurants across the nation made <br>
+								with your Subway® Card gets you closer to awesome rewards.<br>
+								<u> <font color="green">Join Today <br>
+								<u> <font color="green">Subway MyWay™ Rewards FAQs 
+			</p> 
 			
 		</td>
-	</tr>
+				
+
+</tr>
 </table>
+<h3 class="footer-buttons"></h3>
+		
+<button class="button1"type="button">   Subway MyWay™ Rewards </button> <button class="button2" type="button" font size="4">Join Our Team  </button> <button class="button3" type="button" font size="4" > <a href="Card.html">SUBWAY® Card </button> 
+	
+<center><footer> <font color="Tomato"> This Project is done by Tharun , Manoj, Shamili </font> </footer> </center>
+
 </body>
 </html>
